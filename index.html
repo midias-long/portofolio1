@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Said Imtiyaz - Portofolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.ico">
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Portofolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">🏠 Home</a></li>
+        <li><a href="#about">👤 Tentang</a></li>
+        <li><a href="#experience">🔧 Pengalaman</a></li>
+        <li><a href="#certificate-section">📜 Sertifikat</a></li>
+        <li><a href="#projects">💼 Proyek</a></li>
+        <li><a href="#contact">✉️ Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ==================== HOME ==================== -->
+  <section id="home">
+    <div class="container">
+      <img src="images/foto-profil.jpg" alt="Foto Profil" class="foto-profil">
+      <h1>Hi, Saya <span class="highlight">Muhammad Said Imtiyaz</span></h1>
+      <p>Mahasiswa Teknik Elektro - Universitas Faletehan</p>
+      <p>Hobi: Otomotif dan Berenang</p>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <div class="about">
+        <p>
+          Saya lahir di Serang pada <strong>8 Februari 2002</strong>.
+          Saat ini saya kuliah di <strong>Universitas Faletehan</strong>,
+          jurusan <strong>Teknik Elektro (Reguler Karyawan/Online)</strong>.
+        </p>
+        <p>
+          Saya memiliki keahlian di bidang kelistrikan industri seperti
+          pemeliharaan sistem listrik, renewal part, test run motor listrik,
+          membaca wiring diagram, serta menguasai Microsoft Office
+          (Word, Excel, PowerPoint).
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE ==================== -->
+  <section id="experience">
+    <div class="container">
+      <h2>Pengalaman Kerja</h2>
+      <div class="about">
+        <ul>
+          <li>Contractor Listrik - PT. Surya Bakti Persada <br>(1-28 Februari 2022)</li>
+          <li>Contractor Listrik - PT. Surya Bakti Persada <br>(1-28 Februari 2023)</li>
+          <li>Contractor Listrik - PT. Surya Bakti Persada <br>(22 April - 19 Mei 2024)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CERTIFICATES ==================== -->
+  <section id="certificate-section" class="certificate-section">
+    <h2>Sertifikat</h2>
+    <button id="showCertificates" class="btn-show">Lihat Sertifikat</button>
+
+    <div id="certificateGrid" class="certificate-grid hidden">
+      <div class="certificate">
+        <img src="images/sertifikat operator listrik industri.jpg" alt="Sertifikat Operator" class="certificate-img popup-img">
+        <h3>Operator Listrik Industri</h3>
+        <p>BBPVP Serang – 2021</p>
+      </div>
+      <div class="certificate">
+        <img src="images/sertifikat contractor safety management system(csms).jpg" alt="Sertifikat CSMS" class="certificate-img popup-img">
+        <h3>Contractor Safety Management System</h3>
+        <p>ASKHA CONSULTING – 2024</p>
+      </div>
+      <div class="certificate">
+        <img src="images/sertifikat HTML.jpg" alt="Sertifikat HTML" class="certificate-img popup-img">
+        <h3>HTML</h3>
+        <p>Always Ngoding – 2025</p>
+      </div>
+      <div class="certificate">
+        <img src="images/sertifikat dasar chat gpt untuk pemula.jpg" alt="Sertifikat ChatGPT" class="certificate-img popup-img">
+        <h3>Dasar ChatGPT untuk Pemula</h3>
+        <p>Jobstreet – 2022</p>
+      </div>
+      <div class="certificate">
+        <img src="images/sertifikat mahir bahasa inggris .jpg" alt="Sertifikat Bahasa Inggris" class="certificate-img popup-img">
+        <h3>Mahir Bahasa Inggris</h3>
+        <p>Jobstreet – 2022</p>
+      </div>
+      <div class="certificate">
+        <img src="images/sertifikat digital marketing.jpg" alt="Sertifikat Digital Marketing" class="certificate-img popup-img">
+        <h3>Digital Marketing</h3>
+        <p>Jobstreet – 2022</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS ==================== -->
+  <section id="projects">
+    <div class="container">
+      <h2>Proyek</h2>
+      <div class="about">
+        <p>Website Portofolio ini juga menjadi salah satu proyek saya di bidang web development.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact">
+    <div class="container">
+      <h2>Kontak Saya</h2>
+      <p>Hubungi saya melalui form di bawah atau media sosial:</p>
+      <p>Email: <a href="mailto:saidimtiyaz123@gmail.com">saidimtiyaz123@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/said_imtiyaz/" target="_blank">@said_imtiyaz</a></p>
+
+      <form id="contactForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama anda">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email anda">
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tulis pesan anda"></textarea>
+
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+  <section id="home" class="fade-in">
+    ...
+  </section>
+  
+  <section id="about" class="fade-in">
+    ...
+  </section>
+  
+  <section id="experience" class="fade-in">
+    ...
+  </section>
+  
+  <section id="projects" class="fade-in">
+    ...
+  </section>
+  
+  <section id="contact" class="fade-in">
+    ...
+  </section>
+  
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <p>&copy; 2025 Muhammad Said Imtiyaz. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== POPUP IMAGE ===== -->
+  <div id="imgPopup" class="img-popup hidden">
+    <span id="closePopup">&times;</span>
+    <img id="popupImage" src="" alt="Popup Sertifikat">
+  </div>
+
+  <!-- ===== Scroll to Top Button ===== -->
+  <button id="scrollTopButton" title="Kembali ke atas">⬆️</button>
+
+  <!-- ==================== SCRIPT ==================== -->
+  <script src="js/script.js"></script>
+  <script>
+    // ===== Toggle Sertifikat =====
+    const btnShow = document.getElementById('showCertificates');
+    const grid = document.getElementById('certificateGrid');
+    btnShow.addEventListener('click', () => {
+      grid.classList.toggle('hidden');
+      btnShow.textContent = grid.classList.contains('hidden')
+        ? 'Lihat Sertifikat'
+        : 'Sembunyikan Sertifikat';
+    });
+
+    // ===== Popup Gambar =====
+    const popup = document.getElementById('imgPopup');
+    const popupImg = document.getElementById('popupImage');
+    const closePopup = document.getElementById('closePopup');
+    document.querySelectorAll('.popup-img').forEach(img => {
+      img.addEventListener('click', () => {
+        popup.classList.remove('hidden');
+        popupImg.src = img.src;
+        popupImg.alt = img.alt;
+      });
+    });
+    closePopup.addEventListener('click', () => popup.classList.add('hidden'));
+    popup.addEventListener('click', (e) => { if (e.target === popup) popup.classList.add('hidden'); });
+  </script>
+
+</body>
+</html>
