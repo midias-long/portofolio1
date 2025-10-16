@@ -45,7 +45,7 @@ IBM Granite digunakan sebagai **asisten generatif** untuk mempercepat proses pen
 
 ## 🚀 Link Hasil Deploy
 Website ini sudah di-deploy dan bisa diakses di:
-🔗 [https://said-imtiyaz-portfolio.netlify.app](https://said-imtiyaz-portfolio.netlify.app)
+🔗 [https://portofolio99.netlify.app/](https://portfolio99.netlify.app)
 
 ---
 
